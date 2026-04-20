@@ -1,0 +1,506 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+}
+
+/* CONTAINER */
+#container {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    padding: 25px 60px;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+/* NAVBAR */
+nav {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    padding: 12px 60px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    padding-bottom: 3px;
+}
+
+nav a:hover {
+    opacity: 0.8;
+    nav a:hover {
+    opacity: 0.8;
+    border-bottom: 2px solid white;
+    transform: translateY(-2px);
+}
+    border-bottom: 2px solid white;
+}
+
+/* MAIN */
+#main {
+    display: flex;
+    padding: 40px 60px;
+}
+
+/* CONTENT */
+#content {
+    width: 65%;
+}
+
+#content h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#content p {
+    line-height: 1.6;
+}
+
+/* SIDEBAR */
+#sidebar {
+    width: 30%;
+    margin-left: 5%;
+}
+
+/* WIDGET */
+.widget {
+    background: #ffffff;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* JUDUL WIDGET */
+.widget h3 {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 15px -15px;
+    border-radius: 12px 12px 0 0;
+}
+
+/* LINK WIDGET */
+.widget a {
+    text-decoration: none;
+    color: #ff7e5f;
+}
+
+.widget a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #6c5ce7;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #4834d4;
+}
+
+/* TABLE */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.table tbody tr:hover {
+    background: #f9f9f9;
+}
+
+/* BADGE STATUS */
+.badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.aktif {
+    background: #2ecc71;
+}
+
+.draft {
+    background: #e67e22;
+}
+
+/* BUTTON AKSI */
+.btn-edit {
+    color: #3498db;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #ff7a59;
+    box-shadow: 0 0 5px rgba(255,122,89,0.5);
+}
+
+textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+.btn-submit {
+    background: linear-gradient(45deg, #ff7a59, #ffb347);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74,144,226,0.5);
+}
+
+textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+/* BUTTON */
+.button-group {
+    margin-top: 15px;
+}
+
+.btn-submit {
+    background: linear-gradient(45deg, #4a90e2, #6fc3df);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-back {
+    background: #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-submit:hover {
+    opacity: 0.9;
+}
+
+.btn-back:hover {
+    background: #bbb;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Tombol atas */
+.top-action {
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    background: linear-gradient(45deg, #6a5acd, #836fff);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-back {
+    background: #6c757d;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Tabel */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background: linear-gradient(45deg, #ff7a59, #ffb347);
+    color: white;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Tombol aksi */
+.btn-edit {
+    background: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-delete {
+    background: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-kembali:hover {
+    opacity: 0.85;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+/* container */
+.artikel-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* card */
+.artikel-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.artikel-card:hover {
+    transform: translateY(-5px);
+}
+
+/* judul */
+.artikel-card h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.artikel-card h3 a:hover {
+    color: #6a11cb;
+}
+
+/* isi */
+.artikel-card p {
+    color: #666;
+    margin: 10px 0;
+}
+
+/* tombol */
+.btn-baca {
+    display: inline-block;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-baca:hover {
+    opacity: 0.85;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    opacity: 0.9;
+}
